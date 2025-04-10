@@ -30,4 +30,6 @@ run the synchronized image taker with:
 
 ros2 run duo_image_publisher stereo_sync_node
 
-The left right images should save in a stereo_pairs folder in your home directory.
+The left right images should save in a stereo_pairs folder in your home directory (This will need to be changed in the code from stereo_sync.py).
+
+Depending on what video inputs your cameras have you may also need to adjust the path to the cameras in the launch file.
